@@ -25,16 +25,16 @@ int main() {
         scanf(" %[^\n]", cartas[i].nomeCidade);
 
         printf("Digite a populacao: ");
-        scanf("%d, &cartas[i].populacao");
+        scanf("%d", cartas[i].populacao);
 
             printf("Digite a area (em km²): ");
-            scanf("%f, &cartas[i].area");
+            scanf("%f", cartas[i].area);
 
             printf("Digite p PIB (em bilhoes): ");
-            scanf("%f, &cartas[i].pib");
+            scanf("%f", cartas[i].pib);
 
                 printf("Digite o numero de pontos turisticos: ");
-                scanf("%d, &cartas[i].pontosturisticos");
+                scanf("%d", cartas[i].pontosturisticos);
 
                 printf("\n");
 
