@@ -16,10 +16,10 @@ int main() {
         printf("Cadastro da carta %d:\n", i + 1);
 
         printf("Digite o estado (ex: SP): ");
-        scanf("%s", &cartas[i].estado);
+        scanf("%s", cartas[i].estado);
 
         printf("Digite o codigo da cidade (ex: A01): ");
-        scanf("%s", &cartas[i].codigo);
+        scanf("%s", cartas[i].codigo);
 
         printf("Digite o nome da cidade: ");
         scanf(" %[^\n]", &cartas[i].nomeCidade);
