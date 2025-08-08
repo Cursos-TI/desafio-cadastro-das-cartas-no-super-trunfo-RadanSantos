@@ -5,7 +5,7 @@ struct Carta {
     char estado[3];
     char codigo[4];
     char nomeCidade [50];
-    unsigned long int populacao;
+    int populacao;
     float area;
     float pib;
     int pontosTuristicos;
