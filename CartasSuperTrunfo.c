@@ -39,8 +39,8 @@ int main() {
     scanf("%d", &carta1.pontosTuristicos);
 
     // Cálculos
-    carta1.densidadePop = carta1.populacao / carta1.area;
-    carta1.pibPerCapita =(carta1.pib * 1000000000) / carta1.populacao;
+    carta1.densidadePop = (float)carta1.populacao / carta1.area;
+    carta1.pibPerCapita =(carta1.pib * 1000000000.0f) / (float)carta1.populacao;
 
     // --- CARTA 2 ---
     printf("\nCadastro da carta 2:\n");
@@ -66,8 +66,8 @@ int main() {
     scanf("%d", &carta2.pontosTuristicos);
 
     // Cálculos
-    carta2.densidadePop = carta2.populacao / carta2.area;
-    carta2.pibPerCapita = (carta2.pib * 1000000000) / carta2.populacao;
+    carta2.densidadePop = (float)carta2.populacao / carta2.area;
+    carta2.pibPerCapita = (carta2.pib * 1000000000.0f) / (float)carta2.populacao;
 
     // ---EXIBINDO RESULTADOS ---
     printf("\n--- RESULTADOS ---\n");
